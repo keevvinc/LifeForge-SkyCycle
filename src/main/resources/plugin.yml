@@ -1,0 +1,6 @@
+name: BloodGemPlugin
+version: 1.0
+main: net.lifeforge.bloodgem.BloodGemPlugin
+api-version: 1.21
+description: "Player killed by another player drops an artifact: Blood Gem"
+author: Kejvoun
