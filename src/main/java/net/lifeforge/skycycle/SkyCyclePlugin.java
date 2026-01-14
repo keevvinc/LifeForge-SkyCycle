@@ -25,7 +25,7 @@ public class SkyCyclePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Add worlds to control
-        addWorldIfExists("spawn");
+        addWorldIfExists("lobby");
         addWorldIfExists("world");
 
         if (controlledWorlds.isEmpty()) {
