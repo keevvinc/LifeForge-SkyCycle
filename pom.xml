@@ -21,6 +21,18 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>papermc</id>
+            <name>PaperMC Maven</name>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>spigot-snapshots</id>
+            <name>Spigot Snapshots</name>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
